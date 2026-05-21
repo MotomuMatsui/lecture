@@ -1,0 +1,32 @@
+scientific_name	common_name_ja	common_name_en	order	clade	mt_refseq_accession	cytb_length_nt
+Struthio camelus	ダチョウ	Common ostrich	Struthioniformes	Palaeognathae	NC_002785.1	1140
+Apteryx rowi	オカリトキーウィ	Okarito kiwi	Apterygiformes	Palaeognathae	NC_052824.1	1140
+Rhea americana	アメリカレア	Greater rhea	Rheiformes	Palaeognathae	NC_000846.1	1140
+Tinamus major	オオシギダチョウ	Great tinamou	Tinamiformes	Palaeognathae	NC_002781.3	1140
+Gallus gallus	セキショクヤケイ	Red junglefowl (chicken)	Galliformes	Galloanserae	NC_040902.1	1143
+Meleagris gallopavo	シチメンチョウ	Wild turkey	Galliformes	Galloanserae	NC_010195.2	1143
+Coturnix japonica	ニホンウズラ	Japanese quail	Galliformes	Galloanserae	NC_003408.1	1143
+Anas platyrhynchos	マガモ	Mallard	Anseriformes	Galloanserae	NC_009684.1	1143
+Anser cygnoides	サカツラガン	Swan goose	Anseriformes	Galloanserae	NC_023832.1	1143
+Columba livia	カワラバト	Rock pigeon	Columbiformes	Neoaves	NC_013978.1	1143
+Phoenicopterus ruber	ベニイロフラミンゴ	American flamingo	Phoenicopteriformes	Neoaves	NC_027934.1	1143
+Podiceps cristatus	カンムリカイツブリ	Great crested grebe	Podicipediformes	Neoaves	NC_008140.1	1143
+Apus apus	アマツバメ	Common swift	Apodiformes	Neoaves	NC_008540.1	1143
+Lophornis magnificus	エリマキハチドリ	Frilled coquette	Apodiformes	Neoaves	NC_033414.1	1143
+Eudynamys scolopaceus	オウチュウカッコウ	Asian koel	Cuculiformes	Neoaves	NC_060520.1	1143
+Grus japonensis	タンチョウ	Red-crowned crane	Gruiformes	Neoaves	NC_020575.1	1143
+Rissa tridactyla	ミツユビカモメ	Black-legged kittiwake	Charadriiformes	Neoaves	NC_082066.1	1143
+Macronectes giganteus	オオフルマカモメ	Southern giant petrel	Procellariiformes	Neoaves	NC_085213.1	1143
+Aptenodytes forsteri	コウテイペンギン	Emperor penguin	Sphenisciformes	Neoaves	NC_027938.1	1143
+Phalacrocorax carbo	カワウ	Great cormorant	Suliformes	Neoaves	NC_027267.1	1143
+Ardea cinerea	アオサギ	Grey heron	Pelecaniformes	Neoaves	NC_025900.1	1143
+Haliaeetus albicilla	オジロワシ	White-tailed eagle	Accipitriformes	Neoaves	NC_040858.1	1143
+Bubo bubo	ワシミミズク	Eurasian eagle-owl	Strigiformes	Neoaves	NC_038219.1	1143
+Picoides pubescens	セジロコゲラ	Downy woodpecker	Piciformes	Neoaves	NC_027936.1	1142
+Halcyon pileata	ヤマショウビン	Black-capped kingfisher	Coraciiformes	Neoaves	NC_024198.1	1143
+Falco peregrinus	ハヤブサ	Peregrine falcon	Falconiformes	Neoaves	NC_000878.1	1143
+Melopsittacus undulatus	セキセイインコ	Budgerigar	Psittaciformes	Neoaves	NC_009134.1	1140
+Taeniopygia guttata	キンカチョウ	Zebra finch	Passeriformes	Neoaves	NC_007897.1	1143
+Corvus brachyrhynchos	アメリカガラス	American crow	Passeriformes	Neoaves	NC_026461.1	1143
+Parus major	シジュウカラ	Great tit	Passeriformes	Neoaves	NC_040875.1	1142
+Alligator mississippiensis	ミシシッピワニ	American alligator (outgroup)	Crocodilia	Outgroup	NC_001922.1	1159

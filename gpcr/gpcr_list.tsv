@@ -1,0 +1,26 @@
+# Gene	RefSeq_Protein	UniProt	Class	Description
+RHO	NP_000530.1	P08100	A	Rhodopsin
+OPN1SW	NP_001699.1	P03999	A	Blue-sensitive opsin
+OPN1MW	NP_000504.1	P04001	A	Green-sensitive opsin
+ADRB1	NP_000675.1	P08588	A	Beta-1 adrenergic receptor
+ADRB2	NP_000015.1	P07550	A	Beta-2 adrenergic receptor
+ADRA1A	NP_000671.2	P35348	A	Alpha-1A adrenergic receptor
+ADRA2A	NP_000672.3	P08913	A	Alpha-2A adrenergic receptor
+CHRM1	NP_000729.2	P11229	A	Muscarinic acetylcholine receptor M1
+CHRM2	NP_000730.1	P08172	A	Muscarinic acetylcholine receptor M2
+DRD1	NP_000785.1	P21728	A	Dopamine D1 receptor
+DRD2	NP_000786.1	P14416	A	Dopamine D2 receptor
+HTR1A	NP_000515.2	P08908	A	5-hydroxytryptamine receptor 1A
+HTR2A	NP_000612.1	P28223	A	5-hydroxytryptamine receptor 2A
+HRH1	NP_000852.1	P35367	A	Histamine H1 receptor
+OPRM1	NP_000905.3	P35372	A	Mu-type opioid receptor
+CNR1	NP_057167.2	P21554	A	Cannabinoid receptor 1
+AGTR1	NP_114038.1	P30556	A	Type-1 angiotensin II receptor
+CXCR4	NP_003458.1	P61073	A	C-X-C chemokine receptor type 4
+GCGR	NP_000151.1	P47871	B	Glucagon receptor
+GLP1R	NP_002053.3	P43220	B	Glucagon-like peptide 1 receptor
+PTH1R	NP_000307.1	Q03431	B	Parathyroid hormone/parathyroid hormone-related peptide receptor
+GRM1	NP_001107801.1	Q13255	C	Metabotropic glutamate receptor 1
+CASR	NP_000379.2	P41180	C	Extracellular calcium-sensing receptor
+SMO	NP_005622.1	Q99835	F	Smoothened homolog
+FZD1	NP_003496.1	Q9UP38	F	Frizzled-1

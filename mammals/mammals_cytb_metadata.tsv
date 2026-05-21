@@ -1,0 +1,38 @@
+scientific_name	common_name_ja	common_name_en	order	clade	mt_refseq_accession	cytb_length_nt
+Balaena mysticetus	ホッキョククジラ	Bowhead whale	Cetacea	Mysticeti	NC_005268.1	1140
+Eubalaena japonica	セミクジラ	North Pacific right whale	Cetacea	Mysticeti	NC_006931.1	1140
+Balaenoptera musculus	シロナガスクジラ	Blue whale	Cetacea	Mysticeti	NC_001601.1	1140
+Balaenoptera physalus	ナガスクジラ	Fin whale	Cetacea	Mysticeti	NC_001321.1	1140
+Megaptera novaeangliae	ザトウクジラ	Humpback whale	Cetacea	Mysticeti	NC_006927.1	1140
+Eschrichtius robustus	コククジラ	Gray whale	Cetacea	Mysticeti	NC_005270.1	1140
+Caperea marginata	コセミクジラ	Pygmy right whale	Cetacea	Mysticeti	NC_005269.1	1140
+Physeter macrocephalus	マッコウクジラ	Sperm whale	Cetacea	Odontoceti	NC_002503.2	1140
+Kogia breviceps	コマッコウ	Pygmy sperm whale	Cetacea	Odontoceti	NC_005272.1	1140
+Orcinus orca	シャチ	Killer whale	Cetacea	Odontoceti	NC_064558.1	1140
+Tursiops truncatus	ハンドウイルカ	Common bottlenose dolphin	Cetacea	Odontoceti	NC_012059.1	1140
+Delphinus delphis	マイルカ	Common dolphin	Cetacea	Odontoceti	NC_036415.1	1140
+Globicephala melas	ヒレナガゴンドウ	Long-finned pilot whale	Cetacea	Odontoceti	NC_083222.1	1140
+Phocoena phocoena	ネズミイルカ	Harbour porpoise	Cetacea	Odontoceti	NC_005280.1	1140
+Neophocaena asiaeorientalis	スナメリ	Narrow-ridged finless porpoise	Cetacea	Odontoceti	NC_026456.1	1140
+Monodon monoceros	イッカク	Narwhal	Cetacea	Odontoceti	NC_005279.1	1140
+Delphinapterus leucas	シロイルカ	Beluga whale	Cetacea	Odontoceti	NC_034236.1	1140
+Ziphius cavirostris	アカボウクジラ	Cuvier's beaked whale	Cetacea	Odontoceti	NC_021435.1	1140
+Berardius bairdii	ツチクジラ	Baird's beaked whale	Cetacea	Odontoceti	NC_005274.1	1140
+Platanista gangetica	ガンジスカワイルカ	Ganges river dolphin	Cetacea	Odontoceti	NC_057433.1	1140
+Inia geoffrensis	アマゾンカワイルカ	Amazon river dolphin	Cetacea	Odontoceti	NC_005276.1	1140
+Lipotes vexillifer	ヨウスコウカワイルカ	Baiji	Cetacea	Odontoceti	NC_007629.1	1140
+Phoca vitulina	ゴマフアザラシ	Harbour seal	Carnivora	Pinnipedia	NC_001325.1	1140
+Mirounga leonina	ミナミゾウアザラシ	Southern elephant seal	Carnivora	Pinnipedia	NC_008422.1	1140
+Halichoerus grypus	ハイイロアザラシ	Grey seal	Carnivora	Pinnipedia	NC_001602.1	1140
+Eumetopias jubatus	トド	Steller sea lion	Carnivora	Pinnipedia	NC_004030.2	1140
+Zalophus californianus	カリフォルニアアシカ	California sea lion	Carnivora	Pinnipedia	NC_008416.1	1140
+Odobenus rosmarus	セイウチ	Walrus	Carnivora	Pinnipedia	NC_004029.2	1140
+Trichechus manatus	アメリカマナティー	West Indian manatee	Sirenia	Sirenia	NC_010302.1	1140
+Dugong dugon	ジュゴン	Dugong	Sirenia	Sirenia	NC_003314.1	1140
+Enhydra lutris	ラッコ	Sea otter	Carnivora	Mustelidae	NC_009692.1	1140
+Ursus maritimus	ホッキョクグマ	Polar bear	Carnivora	Ursidae	NC_003428.1	1140
+Hippopotamus amphibius	カバ	Hippopotamus (sister of Cetacea)	Artiodactyla	Terrestrial-sister	NC_000889.1	1140
+Lutra lutra	ユーラシアカワウソ	Eurasian river otter (sister of Enhydra)	Carnivora	Terrestrial-sister	NC_062277.1	1140
+Ursus arctos	ヒグマ	Brown bear (sister of U. maritimus)	Carnivora	Terrestrial-sister	NC_003427.1	1140
+Loxodonta africana	アフリカゾウ	African elephant (Paenungulata, sister of Sirenia)	Proboscidea	Terrestrial-sister	NC_000934.1	1137
+Procavia capensis	ケープイワダヌキ	Cape hyrax (Paenungulata)	Hyracoidea	Terrestrial-sister	NC_004919.1	1140
