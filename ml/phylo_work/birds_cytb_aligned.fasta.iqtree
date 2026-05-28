@@ -1,0 +1,313 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: phylo_work/birds_cytb_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 172487
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 37 sequences with 1140 nucleotide sites
+Number of constant sites: 517 (= 45.3509% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 517 (= 45.3509% of all sites)
+Number of parsimony informative sites: 552
+Number of distinct site patterns: 610
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R4         -14963.879   30097.759 +    0.736   30111.630 +    0.797   30526.056 +    0.995
+GTR+F+R5         -14962.904   30099.809 +    0.264   30114.364 +    0.203   30538.183 -  0.00231
+GTR+F+I+G4       -14984.152   30130.304 - 6.31e-08   30142.860 - 1.32e-07   30538.445 -  0.00203
+GTR+F+R3         -14978.109   30122.217 -  3.6e-06   30135.422 - 5.43e-06   30540.436 -  0.00075
+TVM+F+R4         -14979.100   30126.201 - 4.91e-07   30139.736 - 6.28e-07   30549.458 - 8.24e-06
+TIM+F+R4         -14983.412   30132.824 - 1.79e-08   30146.028 -  2.7e-08   30551.043 - 3.73e-06
+TIM2+F+R4        -14988.291   30142.581 - 1.36e-10   30155.786 - 2.06e-10   30560.801 - 2.84e-08
+K3Pu+F+R4        -14996.692   30157.385 -  8.3e-14   30170.263 - 1.48e-13   30570.565 - 2.15e-10
+TPM2u+F+R4       -15004.007   30172.014 - 5.53e-17   30184.892 - 9.83e-17   30585.194 - 1.43e-13
+TPM2+F+R4        -15004.007   30172.014 - 5.53e-17   30184.892 - 9.83e-17   30585.194 - 1.43e-13
+TIM3+F+R4        -15008.309   30182.618 - 2.75e-19   30195.823 - 4.16e-19   30600.837 - 5.74e-17
+TPM3u+F+R4       -15021.104   30206.208 - 2.08e-24   30219.086 - 3.69e-24   30619.389 - 5.38e-21
+TPM3+F+R4        -15021.104   30206.208 - 2.08e-24   30219.086 - 3.69e-24   30619.389 - 5.38e-21
+TN+F+R4          -15023.740   30211.480 - 1.49e-25   30224.358 - 2.65e-25   30624.660 - 3.86e-22
+HKY+F+R4         -15036.518   30235.036 - 1.14e-30   30247.592 - 2.39e-30   30643.177 - 3.67e-26
+GTR+F+G4         -15072.837   30305.675 - 5.23e-46   30317.913 - 1.28e-45   30708.778 - 2.09e-40
+GTR+F+R2         -15074.179   30310.358 - 5.03e-47   30322.914 - 1.05e-46   30718.500 - 1.62e-42
+SYM+R4           -15110.807   30385.614 - 2.29e-63   30398.492 - 4.07e-63   30798.795 - 5.93e-60
+TIM2e+R4         -15158.727   30477.454 - 2.61e-83   30489.692 -  6.4e-83   30880.556 - 1.04e-77
+TIMe+R4          -15213.903   30587.807 - 2.85e-107   30600.045 - 6.97e-107   30990.910 - 1.14e-101
+GTR+F+I          -15249.255   30658.510 - 1.26e-122   30670.748 - 3.09e-122   31061.613 - 5.05e-117
+TVMe+R4          -15265.537   30693.075 - 3.94e-130   30705.630 - 8.24e-130   31101.216 - 1.27e-125
+TIM3e+R4         -15303.717   30767.435 - 2.81e-146   30779.673 - 6.88e-146   31170.537 - 1.12e-140
+TNe+R4           -15327.130   30812.260 - 5.19e-156   30824.184 - 1.49e-155   31210.323 - 2.58e-149
+K3P+R4           -15376.646   30911.291 - 1.62e-177   30923.216 - 4.65e-177   31309.355 - 8.06e-171
+K2P+R4           -15490.611   31137.221 - 1.41e-226   31148.837 - 4.73e-226   31530.247 - 8.72e-219
+F81+F+R4         -16518.639   33197.279 -        0   33209.517 -        0   33600.382 -        0
+JC+R4            -16743.798   33641.595 -        0   33652.906 -        0   34029.582 -        0
+GTR+F            -16856.494   33870.989 -        0   33882.913 -        0   34269.053 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R4
+
+Rate parameter R:
+
+  A-C: 3.2974
+  A-G: 15.0041
+  A-T: 1.1527
+  C-G: 0.5392
+  C-T: 21.7470
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.302
+  pi(C) = 0.3064
+  pi(G) = 0.1307
+  pi(T) = 0.2609
+
+Rate matrix Q:
+
+  A   -0.5881    0.1815    0.3525   0.05405
+  C    0.1789    -1.211   0.01267      1.02
+  G    0.8142   0.02969   -0.8908   0.04689
+  T   0.06255     1.197   0.02349    -1.283
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.494,0.01923) (0.1905,0.8248) (0.2757,2.144) (0.03989,6.074)
+
+ Category  Relative_rate  Proportion
+  1         0.01923        0.494
+  2         0.8248         0.1905
+  3         2.144          0.2757
+  4         6.074          0.03989
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14963.5960 (s.e. 402.8442)
+Unconstrained log-likelihood (without tree): -5471.1659
+Number of free parameters (#branches + #model parameters): 85
+Akaike information criterion (AIC) score: 30097.1920
+Corrected Akaike information criterion (AICc) score: 30111.0630
+Bayesian information criterion (BIC) score: 30525.4886
+
+Total tree length (sum of branch lengths): 5.0566
+Sum of internal branch lengths: 1.6117 (31.8724% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Balaena_mysticetus' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Balaena_mysticetus
+|
++--Eubalaena_japonica
+|
+|           +--Balaenoptera_musculus
+|        +--| (52)
+|        |  |  +--Balaenoptera_physalus
+|        |  +--| (83)
+|        |     +--Megaptera_novaeangliae
+|     +--| (98)
+|     |  +--Eschrichtius_robustus
+|  +--| (71)
+|  |  |        +---------Physeter_macrocephalus
+|  |  |     +--| (94)
+|  |  |     |  +-------Kogia_breviceps
+|  |  |  +--| (49)
+|  |  |  |  |                 +---Orcinus_orca
+|  |  |  |  |              +--| (86)
+|  |  |  |  |              |  +--Globicephala_melas
+|  |  |  |  |           +--| (100)
+|  |  |  |  |           |  |  +--Tursiops_truncatus
+|  |  |  |  |           |  +--| (100)
+|  |  |  |  |           |     +--Delphinus_delphis
+|  |  |  |  |        +--| (86)
+|  |  |  |  |        |  |   +--Monodon_monoceros
+|  |  |  |  |        |  +---| (100)
+|  |  |  |  |        |      +---Delphinapterus_leucas
+|  |  |  |  |     +--| (98)
+|  |  |  |  |     |  |   +----Phocoena_phocoena
+|  |  |  |  |     |  +---| (100)
+|  |  |  |  |     |      +------Neophocaena_asiaeorientalis
+|  |  |  |  |  +--| (99)
+|  |  |  |  |  |  |  +----------Inia_geoffrensis
+|  |  |  |  |  |  +--| (92)
+|  |  |  |  |  |     +--------------Lipotes_vexillifer
+|  |  |  |  +--| (54)
+|  |  |  |     |                           +--Phoca_vitulina
+|  |  |  |     |                      +----| (100)
+|  |  |  |     |                      |    +--Halichoerus_grypus
+|  |  |  |     |                   +--| (84)
+|  |  |  |     |                   |  +-----Mirounga_leonina
+|  |  |  |     |                +--| (100)
+|  |  |  |     |                |  |        +--Eumetopias_jubatus
+|  |  |  |     |                |  |  +-----| (100)
+|  |  |  |     |                |  |  |     +--Zalophus_californianus
+|  |  |  |     |                |  +--| (99)
+|  |  |  |     |                |     +---------------Odobenus_rosmarus
+|  |  |  |     |             +--| (82)
+|  |  |  |     |             |  |          +--Ursus_maritimus
+|  |  |  |     |             |  +----------| (100)
+|  |  |  |     |             |             +--Ursus_arctos
+|  |  |  |     |        +----| (99)
+|  |  |  |     |        |    |       +-----Enhydra_lutris
+|  |  |  |     |        |    +-------| (100)
+|  |  |  |     |        |            +-------Lutra_lutra
+|  |  |  |     |    +---| (95)
+|  |  |  |     |    |   |                  +-------Trichechus_manatus
+|  |  |  |     |    |   |          +-------| (100)
+|  |  |  |     |    |   |          |       +-----Dugong_dugon
+|  |  |  |     |    |   |       +--| (91)
+|  |  |  |     |    |   |       |  +-----------------------------Loxodonta_africana
+|  |  |  |     |    |   +-------| (100)
+|  |  |  |     |    |           +--------------------Procavia_capensis
+|  |  |  |     +----| (100)
+|  |  |  |          +---------------Hippopotamus_amphibius
+|  |  +--| (100)
+|  |     |      +------Ziphius_cavirostris
+|  |     |  +---| (100)
+|  |     |  |   +----Berardius_bairdii
+|  |     +--| (70)
+|  |        +--------Platanista_gangetica
++--| (100)
+   +------Caperea_marginata
+
+Tree in newick format:
+
+(Balaena_mysticetus:0.0340988680,Eubalaena_japonica:0.0280884034,((((Balaenoptera_musculus:0.0537951583,(Balaenoptera_physalus:0.0404905816,Megaptera_novaeangliae:0.0426329438)83:0.0079279887)52:0.0060429125,Eschrichtius_robustus:0.0414413386)98:0.0279722205,(((Physeter_macrocephalus:0.1372541774,Kogia_breviceps:0.1126374515)94:0.0210938053,((((((Orcinus_orca:0.0566951806,Globicephala_melas:0.0427712464)86:0.0085185309,(Tursiops_truncatus:0.0253615225,Delphinus_delphis:0.0185698581)100:0.0455922979)100:0.0476130323,(Monodon_monoceros:0.0339995474,Delphinapterus_leucas:0.0555756472)100:0.0640028422)86:0.0144666024,(Phocoena_phocoena:0.0695943376,Neophocaena_asiaeorientalis:0.1055001206)100:0.0576417524)98:0.0320880580,(Inia_geoffrensis:0.1518223267,Lipotes_vexillifer:0.2065964507)92:0.0219885013)99:0.0341873911,(((((((Phoca_vitulina:0.0246345476,Halichoerus_grypus:0.0310121315)100:0.0736748249,Mirounga_leonina:0.0942900251)84:0.0211698037,((Eumetopias_jubatus:0.0355543419,Zalophus_californianus:0.0242396939)100:0.0922830582,Odobenus_rosmarus:0.2252783474)99:0.0450748518)100:0.0413627248,(Ursus_maritimus:0.0104619950,Ursus_arctos:0.0145808098)100:0.1619414445)82:0.0231102645,(Enhydra_lutris:0.0828705987,Lutra_lutra:0.1170545512)100:0.1161076888)99:0.0686167783,(((Trichechus_manatus:0.1108859187,Dugong_dugon:0.0896053917)100:0.1099248302,Loxodonta_africana:0.4052578274)91:0.0366050290,Procavia_capensis:0.2909738041)100:0.1189262248)95:0.0578467359,Hippopotamus_amphibius:0.2164174802)100:0.0796978762)54:0.0106106696)49:0.0065514724,((Ziphius_cavirostris:0.0955691939,Berardius_bairdii:0.0800095667)100:0.0562469826,Platanista_gangetica:0.1319648423)70:0.0081406733)100:0.0424969479)71:0.0164579333,Caperea_marginata:0.1073771132)100:0.0356861974);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -14963.595898
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Balaena_mysticetus
+|
++--Eubalaena_japonica
+|
+|           +--Balaenoptera_musculus
+|        +--| (52)
+|        |  |  +--Balaenoptera_physalus
+|        |  +--| (83)
+|        |     +--Megaptera_novaeangliae
+|     +--| (98)
+|     |  +--Eschrichtius_robustus
+|  +--| (71)
+|  |  |        +---------Physeter_macrocephalus
+|  |  |     +--| (94)
+|  |  |     |  +-------Kogia_breviceps
+|  |  |  +--| (49)
+|  |  |  |  |                 +---Orcinus_orca
+|  |  |  |  |              +--| (86)
+|  |  |  |  |              |  +--Globicephala_melas
+|  |  |  |  |           +--| (100)
+|  |  |  |  |           |  |  +--Tursiops_truncatus
+|  |  |  |  |           |  +--| (100)
+|  |  |  |  |           |     +--Delphinus_delphis
+|  |  |  |  |        +--| (86)
+|  |  |  |  |        |  |   +--Monodon_monoceros
+|  |  |  |  |        |  +---| (100)
+|  |  |  |  |        |      +---Delphinapterus_leucas
+|  |  |  |  |     +--| (98)
+|  |  |  |  |     |  |   +----Phocoena_phocoena
+|  |  |  |  |     |  +---| (100)
+|  |  |  |  |     |      +------Neophocaena_asiaeorientalis
+|  |  |  |  |  +--| (99)
+|  |  |  |  |  |  |  +----------Inia_geoffrensis
+|  |  |  |  |  |  +--| (92)
+|  |  |  |  |  |     +--------------Lipotes_vexillifer
+|  |  |  |  +--| (54)
+|  |  |  |     |                           +--Phoca_vitulina
+|  |  |  |     |                      +----| (100)
+|  |  |  |     |                      |    +--Halichoerus_grypus
+|  |  |  |     |                   +--| (84)
+|  |  |  |     |                   |  +-----Mirounga_leonina
+|  |  |  |     |                +--| (100)
+|  |  |  |     |                |  |        +--Eumetopias_jubatus
+|  |  |  |     |                |  |  +-----| (100)
+|  |  |  |     |                |  |  |     +--Zalophus_californianus
+|  |  |  |     |                |  +--| (99)
+|  |  |  |     |                |     +---------------Odobenus_rosmarus
+|  |  |  |     |             +--| (82)
+|  |  |  |     |             |  |          +--Ursus_maritimus
+|  |  |  |     |             |  +----------| (100)
+|  |  |  |     |             |             +--Ursus_arctos
+|  |  |  |     |        +----| (99)
+|  |  |  |     |        |    |       +-----Enhydra_lutris
+|  |  |  |     |        |    +-------| (100)
+|  |  |  |     |        |            +-------Lutra_lutra
+|  |  |  |     |    +---| (95)
+|  |  |  |     |    |   |                  +-------Trichechus_manatus
+|  |  |  |     |    |   |          +-------| (100)
+|  |  |  |     |    |   |          |       +-----Dugong_dugon
+|  |  |  |     |    |   |       +--| (91)
+|  |  |  |     |    |   |       |  +-----------------------------Loxodonta_africana
+|  |  |  |     |    |   +-------| (100)
+|  |  |  |     |    |           +--------------------Procavia_capensis
+|  |  |  |     +----| (100)
+|  |  |  |          +---------------Hippopotamus_amphibius
+|  |  +--| (100)
+|  |     |      +------Ziphius_cavirostris
+|  |     |  +---| (100)
+|  |     |  |   +----Berardius_bairdii
+|  |     +--| (70)
+|  |        +--------Platanista_gangetica
++--| (100)
+   +------Caperea_marginata
+
+
+Consensus tree in newick format: 
+
+(Balaena_mysticetus:0.0341048981,Eubalaena_japonica:0.0280952410,((((Balaenoptera_musculus:0.0538059974,(Balaenoptera_physalus:0.0404983995,Megaptera_novaeangliae:0.0426423246)83:0.0079280448)52:0.0060423519,Eschrichtius_robustus:0.0414492755)98:0.0279789070,(((Physeter_macrocephalus:0.1372971035,Kogia_breviceps:0.1126719929)94:0.0210906798,((((((Orcinus_orca:0.0567112302,Globicephala_melas:0.0427850298)86:0.0085163038,(Tursiops_truncatus:0.0253673976,Delphinus_delphis:0.0185756970)100:0.0456088343)100:0.0476249199,(Monodon_monoceros:0.0340037991,Delphinapterus_leucas:0.0555967870)100:0.0640217398)86:0.0144676541,(Phocoena_phocoena:0.0696141817,Neophocaena_asiaeorientalis:0.1055362513)100:0.0576564939)98:0.0320962895,(Inia_geoffrensis:0.1518883675,Lipotes_vexillifer:0.2066779580)92:0.0219790812)99:0.0341956414,(((((((Phoca_vitulina:0.0246420694,Halichoerus_grypus:0.0310307971)100:0.0736986555,Mirounga_leonina:0.0943424271)84:0.0211752111,((Eumetopias_jubatus:0.0355655835,Zalophus_californianus:0.0242531040)100:0.0923422320,Odobenus_rosmarus:0.2253769073)99:0.0450819002)100:0.0413799502,(Ursus_maritimus:0.0104601857,Ursus_arctos:0.0145852011)100:0.1620132828)82:0.0231090843,(Enhydra_lutris:0.0828930686,Lutra_lutra:0.1171165860)100:0.1161700534)99:0.0686373802,(((Trichechus_manatus:0.1109286057,Dugong_dugon:0.0896412274)100:0.1099869571,Loxodonta_africana:0.4054132241)91:0.0366134577,Procavia_capensis:0.2911052232)100:0.1189843766)95:0.0578695916,Hippopotamus_amphibius:0.2164964999)100:0.0797314090)54:0.0106130515)49:0.0065534022,((Ziphius_cavirostris:0.0955884672,Berardius_bairdii:0.0800300843)100:0.0562615221,Platanista_gangetica:0.1320090751)70:0.0081309550)100:0.0425071777)71:0.0164544037,Caperea_marginata:0.1074035410)100:0.0356936140);
+
+TIME STAMP
+----------
+
+Date and time: Wed May 27 03:12:33 2026
+Total CPU time used: 14.591386 seconds (0h:0m:14s)
+Total wall-clock time used: 7.700781275 seconds (0h:0m:7s)
+
